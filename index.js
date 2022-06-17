@@ -32,7 +32,7 @@ const seatsRouter = require('./routes/seats')
 app.use('/booking',seatsRouter)
 
 
-app.listen(8000,() =>
+app.listen(5000,() =>
 {
     console.log("server started")
 })
