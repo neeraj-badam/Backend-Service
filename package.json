@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "backend-service",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,16 +7,18 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neeraj-badam/Backend-Service.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "mongodb": "^4.7.0",
-    "mongoose": "^6.3.8"
+  "bugs": {
+    "url": "https://github.com/neeraj-badam/Backend-Service/issues"
   },
-  "engines": {
-    "node": "14.16"
+  "homepage": "https://github.com/neeraj-badam/Backend-Service#readme",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4",
+    "express": "^4.18.1"
   }
 }
