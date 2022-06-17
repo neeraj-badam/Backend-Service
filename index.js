@@ -27,7 +27,7 @@ app.use(cors())
 app.use(express.json())
 
 
-const seatsRouter = require('./routes/Seats')
+const seatsRouter = require('./routes/seats')
 
 app.use('/booking',seatsRouter)
 
