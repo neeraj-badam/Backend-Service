@@ -2,6 +2,8 @@ const express = require('express')
 var cors = require('cors')
 const app = new express()
 
+
+
 //db.js
 
 const mongoose = require('mongoose')
@@ -31,6 +33,9 @@ const seatsRouter = require('./routes/seats')
 
 app.use('/booking',seatsRouter)
 
+require("dotenv").config();
+
+console.log(process.env.PORT || 5000)
 
 app.listen(process.env.PORT || 5000,() =>
 {
